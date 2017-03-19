@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>React dynamic input fields</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/github-fork-ribbon-css/0.2.0/gh-fork-ribbon.min.css" />
+  <style>
+    
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    input,
+    button {
+      display: block;
+      padding: 10px;
+      border: 1px solid rgb(140, 140, 140);
+      border-radius: 5px;
+      margin-bottom: 10px;
+      width: 100%;
+      background: #fff;
+    }
+
+    button {
+      margin-bottom: 0;
+      transition: .5s;
+      font-weight: bold;
+      cursor: pointer;
+      border-color: #fff;
+      color: #fff;
+      background: rgb(6, 77, 246);
+    }
+
+    button:hover {
+      color: rgb(6, 77, 246);
+      background: #fff;
+      border: 1px solid rgb(6, 77, 246);
+
+    }
+
+    .container {
+      max-width: 800px;
+      display: flex;
+      justify-content: space-between;
+      margin: 0 auto;
+    }
+
+    .inputs-container {
+      width: 300px;
+    }
+
+    .state-container {
+      width: 300px;
+      background: #eff0f1;
+      padding: 20px;
+      border-radius: 5px;
+    }
+
+    h2 {
+      margin-bottom: 10px;
+    }
+
+  </style>
+</head>
+<body>
+    <a class="github-fork-ribbon" href="http://github.com/goldylucks/react-dynamic-inputs" title="Fork me on GitHub">Fork me on GitHub</a>
+    <div id="root"></div>
+</body>
+</html>
